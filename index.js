@@ -1,10 +1,10 @@
-import http from 'http'
-import express from 'express'
-const app = express()
-import cors from 'cors'
+import http from 'http';
+import express from 'express';
+const app = express();
+import cors from 'cors';
 
-app.use(cors())
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
 
 let notes = [
